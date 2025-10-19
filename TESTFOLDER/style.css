@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(36, 223, 230)
+}
+
+h1{
+    color:cadetblue
+}
+
+h2{
+    color:coral
+}
+p{
+    color: darkgreen;
+}
+
+ul{
+    color: maroon;
+}
+
+input{
+    color:blue
+}
+button{
+    color: darkviolet;
+    background-color: darkred;
+}
