@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #19a2ae, #67d1c9);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background: url('https://www.toptal.com/designers/subtlepatterns/patterns/circles-light.png'), #19a2ae;
+  background-size: cover;
+  height: 140px;
+  position: relative;
+}
+
+.profile-img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  bottom: -48px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-body {
+  margin-top: 60px;
+}
+
+.card-body h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.card-body h2 span {
+  color: #6a6f81;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.card-body p {
+  color: #6a6f81;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #e8e9ec;
+  padding: 20px 0;
+}
+
+.stat h3 {
+  font-size: 18px;
+  color: #2d3248;
+}
+
+.stat p {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #6a6f81;
+  margin-top: 4px;
+}

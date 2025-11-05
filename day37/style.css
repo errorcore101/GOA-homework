@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Box{
+    width: 200px;
+    height: 200px;
+    transition: background-color 3s, transform 3s, scale 4s;
+    background-color: red;
+}
+
+.Box:hover{
+    background-color: yellow;
+    transform: scale(2) rotate(40deg);
+}
