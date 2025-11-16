@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+
+h2{
+    color: azure;
+}
+
+div {
+    width: 80px;
+    height: 80px;
+    background: steelblue;
+    margin-bottom: 30px;
+}
+
+.move-box {
+    animation: slideRight 3s ease-in-out forwards;
+}
+
+@keyframes slideRight {
+    from { transform: translateX(0); }
+    to { transform: translateX(300px); }
+}
+
+.color-box {
+    animation: colorChange 3s linear forwards;
+}
+
+@keyframes colorChange {
+    from { background-color: blue; }
+    to { background-color: red; }
+}
+
+.rotate-box {
+    animation: spin 2s linear forwards;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.infinite-box {
+    background: purple;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+.scale-box {
+    background: darkorange;
+    animation: scaleUpDown 2s ease-in-out forwards;
+}
+
+@keyframes scaleUpDown {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.4); }
+    100% { transform: scale(1); }
+}
