@@ -1,0 +1,78 @@
+.move-block {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: moveRight 3s linear infinite;
+}
+
+@keyframes moveRight {
+    from { left: 0; }
+    to { left: 300px; }
+}
+
+
+
+
+
+.color-text {
+    font-size: 30px;
+    animation: colorChange 2s infinite;
+}
+
+@keyframes colorChange {
+    0%   { color: red; }
+    50%  { color: blue; }
+    100% { color: red; }
+}
+
+
+
+.rotate-box {
+    width: 100px;
+    height: 100px;
+    background: green;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+
+
+
+.scale-box {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    animation: growShrink 2s infinite;
+}
+
+@keyframes growShrink {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+
+
+
+.circle-rotate {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    border-radius: 50%;
+    position: relative;
+    animation: orbit 3s linear infinite;
+}
+
+@keyframes orbit {
+    from {
+        transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
+}
