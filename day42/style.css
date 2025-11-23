@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #eee;
+    margin: 0;
+    background-color: black;
+}
+
+
+.outer-square {
+    width: 200px;
+    height: 200px;
+    animation: colorCycle 1.9s linear infinite alternate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inner-square {
+    width: 100px;
+    height: 100px;
+    background: black;
+    animation: spin 0.9s linear infinite;
+}
+
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+@keyframes colorCycle {
+    0%   { background: red; }
+    100% { background: blue; }
+}

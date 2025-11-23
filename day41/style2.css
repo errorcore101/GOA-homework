@@ -1,0 +1,164 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: hsl(210, 46%, 95%);
+    padding: 40px;
+}
+
+.Main{
+    display: flex;
+    gap: 20px;
+    max-width: 1300px;
+}
+
+.LeftSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.LeftSideTop{
+    display: flex;
+    gap: 20px;
+}
+
+.Daniel, 
+.Jonathan,
+.Jeanette,
+.Patrick,
+.Kira {
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Introduction,
+.IntroductionJonathan,
+.IntroductionJeanette,
+.IntroductionPatrick,
+.IntroductionKira {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.6);
+}
+
+.IntroText p,
+.IntroTextJonathan p,
+.IntroTextJeanette p,
+.IntroTextPatrick p,
+.IntroTextKira p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.IntroText span,
+.IntroTextJonathan span,
+.IntroTextJeanette span,
+.IntroTextPatrick span,
+.IntroTextKira span {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.https\:\/\/img\.freepik\.com\/free-photo\/portrait-father-his-backyard_23-2149489567\.jpg\?semt\=ais_hybrid\&w\=740\&q\=80 {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.Jonathan{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    width: 350px;
+}
+
+.Jeanette{
+    background:white;
+    color: hsl(217, 19%, 35%);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.Patrick{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.Kira{
+    background:white;
+    color: hsl(217, 19%, 35%);
+    width: 350px;
+    border-radius: 10px;
+}
+
+.Info{
+    color: white;
+    margin-top: 20px;
+}
+
+.MainInfo{
+    color: hsl(264, 82%, 80%);
+    line-height: 1.4;
+}
+
+.InfoJonathan{
+    color: white;
+    margin-top: 20px;
+}
+
+.MainInfoJonathan{
+    color: hsl(0, 0%, 81%);
+    line-height: 1.4;
+}
+
+.InfoJeanette,
+.InfoPatrick,
+.InfoKira{
+    margin-top: 20px;
+    color: inherit;
+}
+
+.MainInfoJeanette,
+.MainInfoPatrick,
+.MainInfoKira{
+    opacity: 0.85;
+    line-height: 1.4;
+}
+
+.Info,
+.MainInfo{
+    width: 600px;
+}
+
+.InfoJonathan,
+.MainInfoJonathan{
+    width: 300px;
+}
+
+.Info, 
+.MainInfo, 
+.Introduction,
+.IntroductionJonathan,
+.InfoJonathan,
+.MainInfoJonathan {
+    transform: translateX(10px);
+}
