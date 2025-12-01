@@ -1,0 +1,60 @@
+.resp-text {
+    font-size: 24px;
+}
+
+@media (max-width: 600px) {
+    .resp-text {
+        font-size: 16px;
+    }
+}
+
+.resp-div {
+    width: 400px;
+    background: lightblue;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .resp-div {
+        width: 100%;
+    }
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    background: #ddd;
+    padding: 20px;
+    flex: 1;
+}
+
+@media (max-width: 700px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.resp-img {
+    height: 300px;
+}
+
+@media (max-width: 500px) {
+    .resp-img {
+        height: 150px;
+    }
+}
+
+.resp-btn {
+    padding: 20px;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .resp-btn {
+        padding: 10px;
+    }
+}
+

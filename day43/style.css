@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.sedans{
+    display: flex;
+    height: 550px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.SUVS{
+    display: flex;
+    height: 550px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.luxury{
+    display: flex;
+    height: 550px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+
+p{
+    color: azure;
+    align-self: center;
+}
+
+h1{
+    transform: translateX(-50px) translateY(-120px);
+    color: azure;
+}
+
+img{
+    height: 37px;
+    transform: translateX(7px) translateY(20px);
+    align-self: flex-start;
+}
+
+button{
+    transform: translate(10px);
+    border-radius: 50%;
+    background-color: rgb(21, 123, 212);
+    color: lime;
+}
+
+@media (max-width: 900px){
+    .SUVS{
+        height: 700px;
+    }
+    .luxury{
+        height: 700px;
+    }
+    .sedans{
+        height: 700px;
+    }
+    button{
+        background-color: antiquewhite;
+        color: brown;
+    }
+} 
