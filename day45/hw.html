@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+onclick — არის HTML ატრიბუტი, რომელიც იძახებს JavaScript კოდს 
+იმ მომენტში, როცა მომხმარებელი დააწკაპუნებს ელემენტს.
+
+console.log — არის JavaScript ფუნქცია, 
+რომელიც ბრაუზერის კონსოლში გამოჰყავს ინფორმაცია (დასაბეჭდი ტექსტი ან მნიშვნელობა).
+-->
+<p id="paragraphe" onclick="changeText()">
+  დააწკაპუნე რომ შეიცვალოს ტექსტი
+</p>
+
+<script>
+function changeText() {
+    document.getElementById("paragraphe").innerText = "ტექსტი შეიცვალა!";
+}
+</script>
+</body>
+</html>
