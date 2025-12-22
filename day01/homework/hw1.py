@@ -1,0 +1,1 @@
+# უყურეთ ამ ვიდეოს: https://www.youtube.com/watch?v=SzJ46YA_RaA
