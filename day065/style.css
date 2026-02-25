@@ -1,0 +1,112 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.input-box {
+    width: 30%;
+}
+
+.label-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    background-color: purple;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 14px;
+    height: 14px;
+}
+
+p {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input.error {
+    border: 2px solid red;
+}
+
+small {
+    color: red;
+    font-size: 12px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result h1 {
+    margin: 5px 0;
+}
+
+span {
+    color: purple;
+}
+
+
+
+@media (max-width: 500px) {
+    .card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .inputs {
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 100%;
+    }
+}

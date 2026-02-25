@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+<div class="inputs">
+    <div class="input-box">
+        <p>day</p>
+        <input type="number" id="day">
+        <small id="dayError"></small>
+    </div>
+
+    <div class="input-box">
+        <p>month</p>
+        <input type="number" id="month">
+        <small id="monthError"></small>
+    </div>
+
+    <div class="input-box">
+        <p>year</p>
+        <input type="number" id="year">
+        <small id="yearError"></small>
+    </div>
+</div>
+
+        <button onclick="calculateage()">calculate</button>
+
+        <div class="result">
+            <h1><span id="years">0</span> years</h1>
+            <h1><span id="months">0</span> months</h1>
+            <h1><span id="days">0</span> days</h1>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
