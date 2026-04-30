@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ფორმა</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="myForm">
+      <div>
+        <input type="text" id="name" placeholder="სახელი">
+        <div class="error" id="nameError"></div>
+      </div>
+  
+      <div>
+        <input type="email" id="email" placeholder="ელფოსტა">
+        <div class="error" id="emailError"></div>
+      </div>
+  
+      <div>
+        <input type="password" id="password" placeholder="პაროლი">
+        <div class="error" id="passwordError"></div>
+      </div>
+  
+      <div>
+        <input type="password" id="confirmPassword" placeholder="გაიმეორე პაროლი">
+        <div class="error" id="confirmError"></div>
+      </div>
+  
+      <button type="submit">გაგზავნა</button>
+      <div id="success"></div>
+    </form>
+    
+    <script src="script2.js"></script>
+</body>
+</html>
